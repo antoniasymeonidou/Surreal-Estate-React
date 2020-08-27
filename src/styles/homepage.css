@@ -1,0 +1,30 @@
+.homepage {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    background-image: url("images/pexels-david-mcbee-396303.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 82vh;
+  }
+  
+  .homepage-contents {
+    background-color: rgb(235, 141, 183);
+    padding: 15px;
+  }
+  
+  @media only screen and (min-width: 961px) {
+    .homepage {
+      grid-row: 2 / 3;
+      padding: 20px;
+      margin-top: 0px;
+      height: auto;
+  
+    }
+    .homepage-contents {
+      padding: 20px;
+      width: 50%;
+    }
+  }

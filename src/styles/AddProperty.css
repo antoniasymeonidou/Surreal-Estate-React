@@ -1,0 +1,99 @@
+.add-property {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    padding: 15px;
+    background-image: ("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+  }
+  
+  .form-add-property {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 234, 239);
+    padding: 10px;
+  }
+  
+  .page-title {
+    text-align: center;
+  }
+  
+  label {
+    margin-top: 10px;
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .button {
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .add-button {
+    margin: 5px;
+    width: 50%;
+    background-color: rgb(93, 9, 104);
+    color: white;
+    padding: 5px;
+  }
+  
+  .add-button:hover {
+    background-color: #d0b0e2;
+    color: black;
+  }
+  
+  .input-title, 
+  .input-email,
+  .input-city,
+  .input-type,
+  .input-bedrooms,
+  .input-bathrooms,
+  .input-price, 
+  .add-button {
+    height: 40px;
+  }
+  
+  @media only screen and (min-width: 961px) {
+    .add-property {
+      grid-row: 2 / 3;
+      padding: 20px;
+    }
+    .form-add-property {
+      width: 40%;
+    }
+    .page-title {
+      margin: 10px;
+      font-size: 20px;
+    }
+  
+    .select-fields {
+      display: flex;
+      width: 70%;
+    }
+  
+    .input-title, .input-email {
+      width: 70%;
+      margin: 3px;
+      height: auto;
+    }
+  
+    .input-city,
+    .input-type,
+    .input-bedrooms,
+    .input-bathrooms {
+      margin: 3px;
+      height: auto;
+    }
+  
+    .input-price, .add-button {
+      width: 30%;
+      margin: 3px;
+      height: auto;
+    }
+  
+    .button {
+      text-align: left;
+    }
+  }

@@ -1,0 +1,95 @@
+.property-card {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    background-image: url("images/pexels-binyamin-mellish-1396122.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .card {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .logo-background {
+    background-color: rgb(245, 234, 239);
+  }
+  
+  .house-logo,
+  .save-logo {
+    font-size: 25px;
+    color: rgb(93, 9, 104);
+  }
+  
+  .title-city {
+    margin-top: 4px;
+    font-weight: bold;
+  }
+  
+  .type-select {
+    font-style: italic;
+    margin-bottom: 4px;
+  }
+  
+  .bathroom-number,
+  .bedroom-number {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .price {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .mail-button {
+    background-color: rgb(93, 9, 104);
+    padding: 5px;
+  }
+  
+  .mail-button:hover {
+    opacity: 0.7;
+  }
+  
+  .mail-button-text {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .save-logo {
+    margin-top: 3px;
+  }
+  
+  .save-button {
+    background-color: rgb(245, 234, 239);
+    justify-content: center;
+    display: contents;
+  }
+  
+  .save-logo:hover {
+    opacity: 0.7;
+  }
+  
+  @media only screen and (min-width: 961px) {
+    .property-card {
+      grid-column: 2 / 4;
+      grid-row: 2 / 3;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .cards {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 20px;
+    }
+  }

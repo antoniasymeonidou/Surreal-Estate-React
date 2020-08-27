@@ -1,0 +1,13 @@
+.alert-success {
+    color: rgb(103, 139, 43);
+    background-color: rgb(218, 243, 189);
+    text-align: center; 
+    padding: 10px;
+  }
+  
+  .alert-error {
+    color: rgb(177, 47, 24);
+    background-color: rgb(247, 208, 201);
+    text-align: center; 
+    padding: 10px;
+  }

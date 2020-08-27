@@ -1,0 +1,18 @@
+.footer {
+    grid-column: 1 / 4;
+    grid-row: 6 / 7;
+    background-color: rgb(245, 234, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 20px;
+  }
+  
+  @media only screen and (min-width: 961px) {
+    .footer {
+      grid-column: 1 / 4;
+      grid-row: 3 / 4;
+      padding: 0px;
+    }
+  }

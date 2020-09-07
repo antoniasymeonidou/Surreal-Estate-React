@@ -4,7 +4,7 @@ This project aims to create a property search engine.
 
 Properties will come from an API created by Manchester Codes.
 
-![Screenshot](https://docs.google.com/drawings/d/e/2PACX-1vQ7oxq9Z_IUQOBaVpuAk2LBNiFZv9lsDgAXsrUzVD_jj9keBCic_6DCgo0ezachkVc5HkXOkOMQuBk2/pub?w=618&h=448)
+![Screenshot](https://docs.google.com/drawings/d/e/2PACX-1vQ7oxq9Z_IUQOBaVpuAk2LBNiFZv9lsDgAXsrUzVD_jj9keBCic_6DCgo0ezachkVc5HkXOkOMQuBk2/pub?w=818&h=448)
 
 ### Concepts
 

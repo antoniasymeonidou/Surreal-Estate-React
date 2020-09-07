@@ -17,7 +17,7 @@ export default function Navbar({ onLogin, userID, onLogout, name }) {
     <nav>
       <Link to="/" className="logo">
         <FaFortAwesome className="logo-img" data-testid="logo-id" />
-        <p className="logo-title">Surreal Estate</p>
+        <p className="logo-title">Nanou's Estate</p>
       </Link>
 
       <ul className={`collapsed ${open ? "open" : ""}`}>

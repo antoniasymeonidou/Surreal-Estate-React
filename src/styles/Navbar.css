@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 nav {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
   }
   
   .logo {
@@ -12,12 +15,13 @@ nav {
     white-space: nowrap;
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
   }
   
   .logo-img {
-    font-size: 40px;
-    color: rgb(93, 9, 104);
+    font-size: 50px;
+    color: rgb(221, 218, 37);
     opacity: 1;
   }
   
@@ -35,22 +39,33 @@ nav {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+
   }
   
   .item {
     text-decoration: none;
     letter-spacing: 2px;
+    font-weight: bold;
     color: black;
+    font-weight: bold;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 5px solid rgb(162, 241, 142);
+    padding: 10px;
   }
   
   .item:hover {
-    color: #928583;
+    color: #df4cb3;
   }
   
   .my-facebook-button-class {
-    background-color: #3b5998;
+    background-color: #526eaa;
+    border-radius: 20%;
     color: white;
+    font-weight: bold;
     display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
     padding: 5px;
     width: 100%;
     height: 60px;
@@ -82,8 +97,9 @@ nav {
     }
   
     .logo {
-      font-size: 18px;
+      font-size: 30px;
       margin-left: 10px;
+      font-weight: bold;
     }
   
     .logo-img {
@@ -91,7 +107,7 @@ nav {
     }
   
     .item {
-      font-size: 15px;
+      font-size: 30px;
     }
   
     ul.collapsed {

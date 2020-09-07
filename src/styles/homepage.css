@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .homepage {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
@@ -11,8 +13,11 @@
   }
   
   .homepage-contents {
-    background-color: rgb(235, 141, 183);
+    background-color: rgb(238, 183, 208);
+    font-family: 'Indie Flower', cursive;;
     padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
   }
   
   @media only screen and (min-width: 961px) {

@@ -14,7 +14,7 @@ function Favourites({ userID }) {
     let mounted = true;
     axios
       .get(
-        "https://serene-ocean-88461.herokuapp.com/api/v1/Favourite?populate=propertyListing"
+        ""
       )
       .then((response) => {
         if (mounted) {
@@ -34,7 +34,7 @@ function Favourites({ userID }) {
   const handleDeleteFavourite = (_id) => {
     axios
       .delete(
-        `https://serene-ocean-88461.herokuapp.com/api/v1/Favourite/${_id}`
+        `${_id}`
       )
       .then(() => setFavourites(favourites.filter((fav) => fav._id !== _id)))
       .then(() => {

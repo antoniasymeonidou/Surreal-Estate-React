@@ -35,7 +35,7 @@ export default function Properties({ userID }) {
   useEffect(() => {
     axios
       .get(
-        `https://serene-ocean-88461.herokuapp.com/api/v1/PropertyListing${search}`
+        `${search}`
       )
       .then((response) => {
         setProperties(response.data);
@@ -48,7 +48,7 @@ export default function Properties({ userID }) {
 
   const handleSaveProperty = (propertyId) => {
     axios
-      .post("https://serene-ocean-88461.herokuapp.com/api/v1/Favourite", {
+      .post("", {
         propertyListing: propertyId,
         fbUserId: userID,
       })

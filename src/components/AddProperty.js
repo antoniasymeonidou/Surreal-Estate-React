@@ -28,7 +28,7 @@ export default function AddProperty() {
     setAlert({ message: "", isSuccess: false });
 
     axios
-      .post("https://serene-ocean-88461.herokuapp.com/api/v1/PropertyListing", {
+      .post("", {
         ...fields,
       })
       .then(() => {
